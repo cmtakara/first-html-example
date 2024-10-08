@@ -51,7 +51,8 @@
     <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem quibusdam, ad animi alias aut ex, veniam
         quasi mollitia, doloribus ducimus ipsam eum perferendis saepe esse placeat dolor ipsa veritatis temporibus?</p>
 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">This example was taken from mdn
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre">This example was taken from
+        mdn
         documentation</a>
     <figure>
         <pre role="img" aria-label="ASCII COW">
@@ -132,8 +133,43 @@
     </ol>
 
     <!-- example of using a file to display an image -->
-     <img src="./images/image0.jpeg" alt="computer humor" width="200"/>
-     <img src="./images/IMG_8019.JPG" alt="more computer humor" width="200"/>
+    <img src="./images/image0.jpeg" alt="computer humor" width="200" />
+    <img src="./images/IMG_8019.JPG" alt="more computer humor" width="200" />
+
+    <h3> Emmet Toolkit demo</h3>
+    <!-- div#header+div>ul.class1>li*5 -->
+    <!--  + makes a sibling -->
+    <div id="header"></div>
+    <div>
+        <ul class="class1">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- div#header -->
+    <div id="header"></div>
+    <!-- div>ul.class1 -->
+    <div>
+        <ul class="class1"></ul>
+    </div>
+    <!-- li*5 -->
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+
+    <!-- an example where i might use this -->
+    <!-- i want 5 paragraphs with the same class name -->
+    <!-- p.highlights*5 -->
+    <p class="highlights"></p>
+    <p class="highlights"></p>
+    <p class="highlights"></p>
+    <p class="highlights"></p>
+    <p class="highlights"></p>
 </body>
 
 </html>
